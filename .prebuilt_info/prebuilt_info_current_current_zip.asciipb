@@ -1,30 +1,14 @@
 drops {
   android_build_drop {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    build_id: "T1007089"
+    build_id: "T1007601"
     target: "train_build"
     source_file: "mainline-sdks/for-UpsideDownCake-build/current/com.google.android.configinfrastructure/sdk/configinfrastructure-sdk-current.zip"
-||||||| 4dd0ee1
-    build_id: "9388295"
-    target: "mainline_modules_sdks-userdebug"
-    source_file: "mainline-sdks/for-latest-build/current/com.google.android.configinfrastructure/sdk/configinfrastructure-sdk-current.zip"
-=======
-    build_id: "T1007284"
-||||||| 5b8875d
-    build_id: "T1007284"
-=======
-    build_id: "T1007458"
->>>>>>> 16654a441da7df542213c887dedd9f8af198f312
-    target: "train_build"
-    source_file: "mainline-sdks/for-UpsideDownCake-build/current/com.google.android.configinfrastructure/sdk/configinfrastructure-sdk-current.zip"
->>>>>>> 2242dc742ac3d72298a8913c7a74c44015c569f7
   }
   dest_file: "current/current.zip"
   version: ""
   version_group: ""
   git_project: "platform/prebuilts/module_sdk/ConfigInfrastructure"
-  git_branch: "udc-dev"
+  git_branch: "udc-d1-dev"
   transform: TRANSFORM_UNZIP
   transform_options {
   }

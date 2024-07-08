@@ -1,6 +1,18 @@
 drops {
   android_build_drop {
+<<<<<<< HEAD
+<<<<<<< HEAD
     build_id: "T1009772"
+||||||| merged common ancestors
+    build_id: "T1010120"
+=======
+    build_id: "T1010137"
+>>>>>>> 1aaeb5ff9d43dcce3b70eb482fabb7e081d83c40
+||||||| 1aaeb5f
+    build_id: "T1010137"
+=======
+    build_id: "T1010146"
+>>>>>>> 7aa1826812e244921f4daea2c5760fae5b8f1067
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.configinfrastructure/sdk/configinfrastructure-sdk-current.zip"
   }

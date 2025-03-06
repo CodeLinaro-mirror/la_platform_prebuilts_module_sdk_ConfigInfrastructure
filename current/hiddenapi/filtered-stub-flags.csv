@@ -397,6 +397,7 @@ Landroid/provider/internal/aconfig/storage/FlagTable$Node;->equals(Ljava/lang/Ob
 Landroid/provider/internal/aconfig/storage/FlagTable$Node;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/provider/internal/aconfig/storage/android/util/LongArray;->clone()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -405,3 +406,4 @@ Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSynthetic
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api

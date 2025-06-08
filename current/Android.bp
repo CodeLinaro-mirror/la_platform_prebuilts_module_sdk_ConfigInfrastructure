@@ -122,6 +122,12 @@ license {
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
 
+license {
+    name: "configinfrastructure-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
+}
+
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.configinfrastructure-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "configinfrastructure_module" is true.

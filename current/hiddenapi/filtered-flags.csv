@@ -165,6 +165,7 @@ Landroid/provider/internal/aconfig/storage/PackageTable$Node;->equals(Ljava/lang
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/internal/aconfig/storage/android/util/LongArray;->clone()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api

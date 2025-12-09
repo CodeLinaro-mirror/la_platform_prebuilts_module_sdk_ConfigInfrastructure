@@ -15,4 +15,5 @@ android/provider/configinfra/internal/protobuf/**
 android/provider/flags/**
 android/provider/internal/aconfig/storage/**
 android/provider/internal/modules/utils/build/**
+android/provider/internal/modules/utils/ravenwood/**
 android/provider/x/android/provider/flags/**

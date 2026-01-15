@@ -1,4 +1,26 @@
+Landroid/os/flagging/AconfigPackage;->getBooleanFlagValue(Ljava/lang/String;Z)Z,public-api,system-api,test-api
+Landroid/os/flagging/AconfigPackage;->load(Ljava/lang/String;)Landroid/os/flagging/AconfigPackage;,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;-><init>(ILjava/lang/String;)V,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;-><init>(ILjava/lang/String;Ljava/lang/Throwable;)V,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;-><init>(ILjava/lang/Throwable;)V,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_CANNOT_READ_STORAGE_FILE:I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_CONTAINER_NOT_FOUND:I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_GENERIC:I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_PACKAGE_NOT_FOUND:I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_STORAGE_SYSTEM_NOT_FOUND:I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->getErrorCode()I,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageReadException;->getMessage()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/os/flagging/AconfigStorageWriteException;-><init>(Ljava/lang/String;)V,system-api,test-api
+Landroid/os/flagging/AconfigStorageWriteException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V,system-api,test-api
+Landroid/os/flagging/ConfigInfrastructureFrameworkInitializer$$ExternalSyntheticLambda0;->createService(Landroid/content/Context;)Ljava/lang/Object;,system-api,test-api
+Landroid/os/flagging/FlagManager;->clearBooleanLocalOverridesImmediately(Ljava/util/Set;)V,system-api,test-api
+Landroid/os/flagging/FlagManager;->clearBooleanLocalOverridesOnReboot(Ljava/util/Set;)V,system-api,test-api
+Landroid/os/flagging/FlagManager;->setBooleanLocalOverridesImmediately(Ljava/util/Map;)V,system-api,test-api
+Landroid/os/flagging/FlagManager;->setBooleanLocalOverridesOnReboot(Ljava/util/Map;)V,system-api,test-api
+Landroid/os/flagging/FlagManager;->setBooleanOverridesOnReboot(Ljava/util/Map;)V,system-api,test-api
+Landroid/os/flagging/FlagManager;->setBooleanOverridesOnSystemBuildFingerprint(Ljava/lang/String;Ljava/util/Map;)V,system-api,test-api
 Landroid/provider/DeviceConfig$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/provider/DeviceConfig$$ExternalSyntheticLambda1;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
 Landroid/provider/DeviceConfig$1;->onChange(ZLandroid/net/Uri;)V,public-api,system-api,test-api
 Landroid/provider/DeviceConfig$BadConfigException;-><init>()V,system-api,test-api
 Landroid/provider/DeviceConfig$MonitorCallback;->onDeviceConfigAccess(Ljava/lang/String;Ljava/lang/String;)V,system-api,test-api
@@ -104,6 +126,7 @@ Landroid/provider/DeviceConfig;->clearLocalOverride(Ljava/lang/String;Ljava/lang
 Landroid/provider/DeviceConfig;->clearMonitorCallback(Landroid/content/ContentResolver;)V,system-api,test-api
 Landroid/provider/DeviceConfig;->deleteProperty(Ljava/lang/String;Ljava/lang/String;)Z,system-api,test-api
 Landroid/provider/DeviceConfig;->getAdbWritableFlags()Ljava/util/Set;,system-api,test-api
+Landroid/provider/DeviceConfig;->getAdbWritableNamespaces()Ljava/util/Set;,system-api,test-api
 Landroid/provider/DeviceConfig;->getAllProperties()Ljava/util/Set;,system-api,test-api
 Landroid/provider/DeviceConfig;->getBoolean(Ljava/lang/String;Ljava/lang/String;Z)Z,system-api,test-api
 Landroid/provider/DeviceConfig;->getFloat(Ljava/lang/String;Ljava/lang/String;F)F,system-api,test-api
@@ -139,6 +162,7 @@ Landroid/provider/internal/aconfig/storage/PackageTable$Node;->equals(Ljava/lang
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/provider/internal/aconfig/storage/android/util/LongArray;->clone()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -147,3 +171,4 @@ Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSynthetic
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda9;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api

@@ -1,0 +1,8 @@
+signature,properties
+Landroid/os/flagging/AconfigPackageInternal;->load(Ljava/lang/String;J)Landroid/os/flagging/AconfigPackageInternal;,
+Landroid/os/flagging/AconfigPackageInternal;->getBooleanFlagValue(I)Z,
+Landroid/os/flagging/AconfigStorageReadException;->ERROR_FILE_FINGERPRINT_MISMATCH:I,
+Landroid/util/configinfrastructure/LongArray;-><init>()V,maxTargetSdk=30&trackingBug=170729553L
+Landroid/util/configinfrastructure/LongArray;->add(IJ)V,maxTargetSdk=30&trackingBug=170729553L
+Landroid/util/configinfrastructure/LongArray;->get(I)J,
+Landroid/util/configinfrastructure/LongArray;->size()I,maxTargetSdk=30&trackingBug=170729553L

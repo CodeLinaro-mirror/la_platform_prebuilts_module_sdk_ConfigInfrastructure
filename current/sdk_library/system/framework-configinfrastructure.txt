@@ -1,6 +1,10 @@
 // Signature format: 2.0
 package android.os.flagging {
 
+  public class AconfigPackage {
+    method public boolean getBooleanFlagValueInternal(@NonNull String, boolean);
+  }
+
   public class AconfigStorageWriteException extends android.util.AndroidRuntimeException {
     ctor public AconfigStorageWriteException(@NonNull String);
     ctor public AconfigStorageWriteException(@NonNull String, @NonNull Throwable);

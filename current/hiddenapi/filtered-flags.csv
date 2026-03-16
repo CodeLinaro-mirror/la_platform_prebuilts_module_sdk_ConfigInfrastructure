@@ -1,4 +1,5 @@
 Landroid/os/flagging/AconfigPackage;->getBooleanFlagValue(Ljava/lang/String;Z)Z,public-api,sdk,system-api,test-api
+Landroid/os/flagging/AconfigPackage;->getBooleanFlagValueInternal(Ljava/lang/String;Z)Z,sdk,system-api,test-api
 Landroid/os/flagging/AconfigPackage;->load(Ljava/lang/String;)Landroid/os/flagging/AconfigPackage;,public-api,sdk,system-api,test-api
 Landroid/os/flagging/AconfigPackageInternal;->getBooleanFlagValue(I)Z,unsupported
 Landroid/os/flagging/AconfigPackageInternal;->load(Ljava/lang/String;J)Landroid/os/flagging/AconfigPackageInternal;,unsupported

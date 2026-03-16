@@ -1,4 +1,5 @@
 Landroid/os/flagging/AconfigPackage;->getBooleanFlagValue(Ljava/lang/String;Z)Z,public-api,system-api,test-api
+Landroid/os/flagging/AconfigPackage;->getBooleanFlagValueInternal(Ljava/lang/String;Z)Z,system-api,test-api
 Landroid/os/flagging/AconfigPackage;->load(Ljava/lang/String;)Landroid/os/flagging/AconfigPackage;,public-api,system-api,test-api
 Landroid/os/flagging/AconfigStorageReadException;-><init>(ILjava/lang/String;)V,public-api,system-api,test-api
 Landroid/os/flagging/AconfigStorageReadException;-><init>(ILjava/lang/String;Ljava/lang/Throwable;)V,public-api,system-api,test-api

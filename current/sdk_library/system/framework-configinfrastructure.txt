@@ -1,6 +1,10 @@
 // Signature format: 2.0
 package android.os.flagging {
 
+  public class AconfigPackage {
+    method public boolean getBooleanFlagValueInternal(@NonNull String, boolean);
+  }
+
   public class AconfigStorageWriteException extends android.util.AndroidRuntimeException {
     ctor public AconfigStorageWriteException(@NonNull String);
     ctor public AconfigStorageWriteException(@NonNull String, @NonNull Throwable);
@@ -76,6 +80,7 @@ package android.provider {
     field public static final String NAMESPACE_DISPLAY_MANAGER = "display_manager";
     field public static final String NAMESPACE_EDGETPU_NATIVE = "edgetpu_native";
     field public static final String NAMESPACE_GAME_DRIVER = "game_driver";
+    field public static final String NAMESPACE_GPU = "gpu";
     field public static final String NAMESPACE_HDMI_CONTROL = "hdmi_control";
     field public static final String NAMESPACE_HEALTH_FITNESS = "health_fitness";
     field public static final String NAMESPACE_INPUT_METHOD_MANAGER = "input_method_manager";

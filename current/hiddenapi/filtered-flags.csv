@@ -1,4 +1,5 @@
 Landroid/os/flagging/AconfigPackage;->getBooleanFlagValue(Ljava/lang/String;Z)Z,public-api,sdk,system-api,test-api
+Landroid/os/flagging/AconfigPackage;->getBooleanFlagValueInternal(Ljava/lang/String;Z)Z,sdk,system-api,test-api
 Landroid/os/flagging/AconfigPackage;->load(Ljava/lang/String;)Landroid/os/flagging/AconfigPackage;,public-api,sdk,system-api,test-api
 Landroid/os/flagging/AconfigPackageInternal;->getBooleanFlagValue(I)Z,unsupported
 Landroid/os/flagging/AconfigPackageInternal;->load(Ljava/lang/String;J)Landroid/os/flagging/AconfigPackageInternal;,unsupported
@@ -74,6 +75,7 @@ Landroid/provider/DeviceConfig;->NAMESPACE_DEX_BOOT:Ljava/lang/String;,sdk,syste
 Landroid/provider/DeviceConfig;->NAMESPACE_DISPLAY_MANAGER:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_EDGETPU_NATIVE:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_GAME_DRIVER:Ljava/lang/String;,sdk,system-api,test-api
+Landroid/provider/DeviceConfig;->NAMESPACE_GPU:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_HDMI_CONTROL:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_HEALTH_FITNESS:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_INPUT_METHOD_MANAGER:Ljava/lang/String;,sdk,system-api,test-api
@@ -164,14 +166,3 @@ Landroid/provider/internal/aconfig/storage/FlagTable$Node;->hashCode()I,core-pla
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/internal/aconfig/storage/PackageTable$Node;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/provider/internal/aconfig/storage/android/util/LongArray;->clone()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/provider/x/android/provider/flags/CustomFeatureFlags$$ExternalSyntheticLambda9;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api

@@ -6,6 +6,7 @@ android/provider/DeviceConfigManager
 android/provider/DeviceConfigServiceDataStore
 android/provider/DeviceConfigShellCommandHandler
 android/provider/SettingsConfigDataStore
+android/provider/StageOtaFlags
 android/provider/UpdatableDeviceConfigServiceReadiness
 android/provider/WritableFlags
 android/provider/WritableNamespaces

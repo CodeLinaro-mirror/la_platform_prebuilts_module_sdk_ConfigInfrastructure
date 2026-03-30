@@ -26,6 +26,9 @@ prebuilt_bootclasspath_fragment {
             module: "art-bootclasspath-fragment",
         },
     ],
+    dex_preopt: {
+        profile_guided: true,
+    },
     hidden_api: {
         annotation_flags: "hiddenapi/annotation-flags.csv",
         metadata: "hiddenapi/metadata.csv",

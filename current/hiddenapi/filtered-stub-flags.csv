@@ -41,6 +41,7 @@ Landroid/provider/DeviceConfig$Properties;->getKeyset()Ljava/util/Set;,system-ap
 Landroid/provider/DeviceConfig$Properties;->getLong(Ljava/lang/String;J)J,system-api,test-api
 Landroid/provider/DeviceConfig$Properties;->getNamespace()Ljava/lang/String;,system-api,test-api
 Landroid/provider/DeviceConfig$Properties;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;,system-api,test-api
+Landroid/provider/DeviceConfig;->DUMP_ARG_NAMESPACE:Ljava/lang/String;,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_ACCESSIBILITY:Ljava/lang/String;,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_ACTIVITY_MANAGER:Ljava/lang/String;,system-api,test-api
 Landroid/provider/DeviceConfig;->NAMESPACE_ACTIVITY_MANAGER_NATIVE_BOOT:Ljava/lang/String;,system-api,test-api
@@ -127,6 +128,7 @@ Landroid/provider/DeviceConfig;->clearAllLocalOverrides()V,system-api,test-api
 Landroid/provider/DeviceConfig;->clearLocalOverride(Ljava/lang/String;Ljava/lang/String;)V,system-api,test-api
 Landroid/provider/DeviceConfig;->clearMonitorCallback(Landroid/content/ContentResolver;)V,system-api,test-api
 Landroid/provider/DeviceConfig;->deleteProperty(Ljava/lang/String;Ljava/lang/String;)Z,system-api,test-api
+Landroid/provider/DeviceConfig;->dump(Ljava/io/PrintWriter;Ljava/lang/String;[Ljava/lang/String;)V,system-api,test-api
 Landroid/provider/DeviceConfig;->getAdbWritableFlags()Ljava/util/Set;,system-api,test-api
 Landroid/provider/DeviceConfig;->getAdbWritableNamespaces()Ljava/util/Set;,system-api,test-api
 Landroid/provider/DeviceConfig;->getAllProperties()Ljava/util/Set;,system-api,test-api
